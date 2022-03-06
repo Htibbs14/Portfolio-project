@@ -17,18 +17,13 @@ h2 {
 .hero {
   background-color: rgba(53%, 38%, 82%, 0.8);
   padding: 200px 70px;
+  text-align: center;
 }
 
 .hero p {
   font-family: "El Messiri";
   font-size: 30px;
   color: white;
-}
-
-.hero h1 {
-  border: 2px solid rgb(35%, 72%, 92%);
-  padding: 0 20px 20px 20px;
-  max-width: 675px;
 }
 
 .btn-branding {
