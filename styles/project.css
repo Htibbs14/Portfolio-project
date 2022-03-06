@@ -1,7 +1,43 @@
-/*font-family: 'Playfair Display', serif;
-/*font-family: 'Poppins', sans-serif;
-
 h1 {
-  font-size: 50px;
+  font-size: 90px;
+  font-family: "Sansita Swashed";
+  color: white;
 }
 
+h2 {
+  font-family: "El Messiri";
+  font-size: 30px;
+  color: white;
+}
+
+.btn {
+  font-family: "El Messiri";
+}
+
+.hero {
+  background-color: rgba(53%, 38%, 82%, 0.8);
+  padding: 200px 70px;
+}
+
+.hero p {
+  font-family: "El Messiri";
+  font-size: 30px;
+  color: white;
+}
+
+.hero h1 {
+  border: 2px solid rgb(35%, 72%, 92%);
+  padding: 0 20px 20px 20px;
+  max-width: 675px;
+}
+
+.btn-branding {
+  background-color: rgb(35%, 72%, 92%);
+  color: white;
+  padding: 15px 30px;
+  font-size: 18px;
+}
+
+.btn-branding:hover {
+  color: white;
+}
