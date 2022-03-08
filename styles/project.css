@@ -1,8 +1,4 @@
-h1 {
-  font-size: 96px;
-  font-family: "Sansita Swashed";
-  color: white;
-}
+
 
 h2 {
     font-family: "El Messiri";
@@ -41,6 +37,9 @@ img {
 .hero h1 {
     text-shadow:5px 0 0 rgb(44%, 24%, 74%),0 1px 0 rgb(44%, 24%, 74%),-1px 0 0 rgb(44%, 24%, 74%),0 -1px 0 rgb(44%, 24%, 74%);
     color: white;
+      font-size: 96px;
+  font-family: "Sansita Swashed";
+  color: white;
 }
 
 .hero h2 {
@@ -79,7 +78,7 @@ color: rgb(44%, 24%, 74%);
 }
 
 @media (max-width: 988px) {
-    h1 {
+    .hero h1 {
         font-size: 34px;
     }
     h2 {
