@@ -5,10 +5,19 @@ h1 {
 }
 
 h2 {
-  font-family: "El Messiri";
-  font-size: 30px;
-  color: white;
-  font-weight: normal;
+    font-family: "El Messiri";
+    font-weight: 800;
+    font-size: 50px;
+}
+
+p {
+    font-family: "El Messiri";
+    line-height: 1.7;
+    font-size: 18px;
+}
+
+img {
+    border-radius: 4px;
 }
 
 .btn {
@@ -17,7 +26,7 @@ h2 {
 
 .hero {
   background: linear-gradient(109.6deg, rgba(0, 0, 0, 0.93) 11.2%, rgb(63, 61, 61) 78.9%);
-  padding: 200px 70px;
+  padding: 150px 20px;
   text-align: center;
   background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/028/781/original/resizedbg2.jpg?1646713969);
 }
@@ -33,16 +42,62 @@ h2 {
     color: white;
 }
 
+.hero h2 {
+     font-family: "El Messiri";
+  font-size: 30px;
+  color: white;
+  font-weight: normal;
+}
+
 .btn-branding {
   background-color: rgb(44%, 24%, 74%);
   color: white;
-  padding: 15px 30px;
+  padding: 12px 25px;
   font-size: 18px;
   border-radius: 6px;
 }
 
 .btn-branding:hover {
   color: white;
+}
+
+.project-intro {
+    padding: 0 40px;
+}
+
+.btn-branding-outline {
+border: 1px solid rgb(44%, 24%, 74%);
+color: rgb(44%, 24%, 74%);
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 6px;
+}
+
+.btn-branding-outline:hover {
+    color: rgb(44%, 24%, 74%);
+}
+
+@media (max-width: 988px) {
+    h1 {
+        font-size: 34px;
+    }
+    h2 {
+        font-size: 36px;
+    }
+    .hero {
+        padding: 80px 70px;
+    }
+    .hero h2 {
+        font-size: 18px;
+    }
+
+    .hero p {
+        font-size: 22px;
+    }
+.project-intro {
+    text-align: center;
+    padding: 0;
+}
 }
 /*rgb(14%, 19%, 37%)
 /*rgb(52%, 80%, 92%)
