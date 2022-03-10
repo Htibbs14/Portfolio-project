@@ -80,7 +80,7 @@ footer i:hover {
     transition: all 100ms ease-in-out;
 }
 
-.hero a:hover {
+.hero a:hover, footer .btn:hover, .content a:hover {
     border: 1px solid rgb(44%, 24%, 74%);
     background: white;
     color: rgb(44%, 24%, 74%);
@@ -89,6 +89,11 @@ footer i:hover {
 .btn {
   font-family: "El Messiri";
   font-weight: 500;
+}
+
+ .project-intro a:hover {
+    background: rgb(44%, 24%, 74%);
+    color: white;
 }
 
 .hero {
