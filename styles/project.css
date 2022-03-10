@@ -48,8 +48,39 @@ a {
     text-decoration: none;
 }
 
+footer {
+    margin-bottom: 100px;
+}
+
+footer a {
+    font-size: 20px;
+    color: black;
+}
+
+footer i {
+    font-size: 30px;
+    margin: 0 20px;
+    color: rgb(44%, 24%, 74%);
+    border: 2px solid;
+    padding: 10px 12px;
+    border-radius: 50%;
+}
+
+footer i:hover {
+    background: rgb(44%, 24%, 74%);
+    color: white;
+    transition: all 100ms ease-in-out;
+}
+
+.hero a:hover {
+    border: 1px solid rgb(44%, 24%, 74%);
+    background: white;
+    color: rgb(44%, 24%, 74%);
+}
+
 .btn {
   font-family: "El Messiri";
+  font-weight: 500;
 }
 
 .hero {
