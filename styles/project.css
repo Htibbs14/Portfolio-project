@@ -60,10 +60,11 @@ footer {
 footer a {
     font-size: 20px;
     color: black;
+    font-family: "El Messiri";
 }
 
 footer i {
-    font-size: 30px;
+    font-size: 20px;
     margin: 0 5px;
     color: rgb(44%, 24%, 74%);
     border: 2px solid;
@@ -198,6 +199,10 @@ color: rgb(44%, 24%, 74%);
     h2 {
         font-size: 36px;
     }
+
+    footer {
+        margin: 50px;
+    }
     .hero {
         padding: 80px 70px;
     }
@@ -221,6 +226,9 @@ color: rgb(44%, 24%, 74%);
 }
 .container-content a {
     margin-bottom: 30px;
+}
+footer i {
+    font-size: 20px;
 }
 nav {
     display: flex;
