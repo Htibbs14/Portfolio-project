@@ -17,6 +17,37 @@ img {
     border: 1px solid rgb(44%, 24%, 74%);
 }
 
+nav {
+    margin: 10px 70px 5px;
+}
+
+ul {
+    justify-content: end;
+    margin: 0;
+}
+
+nav li {
+    list-style: none;
+    line-height: 40px;
+    margin-left: 60px;
+font-size: 18px;
+font-weight: 600;
+font-family: "El Messiri";
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+li a:hover, a:hover {
+    color:rgb(44%, 24%, 74%);
+}
+
+a {
+    text-decoration: none;
+}
+
 .btn {
   font-family: "El Messiri";
 }
@@ -50,11 +81,13 @@ img {
 }
 
 .container-content {
-    padding: 150px 20px;
+    padding: 80px 20px;
 }
 .container-content h1 {
 font-family: 'Righteous', cursive;
 font-size: 60px;
+color: rgb(44%, 24%, 74%);
+
 }
 
 .container-content h2 {
@@ -136,6 +169,14 @@ color: rgb(44%, 24%, 74%);
 }
 .container-content a {
     margin-bottom: 30px;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    padding-right: 60px;
+}
+nav li {
+    margin-left: 26px;
 }
 }
 /*rgb(14%, 19%, 37%)
