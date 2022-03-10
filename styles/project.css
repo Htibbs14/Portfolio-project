@@ -27,17 +27,16 @@ img {
 }
 
 nav {
-    margin: 10px 70px 5px;
+    padding: 15px;
 }
 
-ul {
-    justify-content: end;
+nav ul {
     margin: 0;
 }
 
 nav li {
     list-style: none;
-    margin-left: 60px;
+    margin-left: 40px;
 font-size: 18px;
 font-weight: 600;
 font-family: "El Messiri";
@@ -218,7 +217,6 @@ color: rgb(44%, 24%, 74%);
     }
 .project-intro {
     text-align: center;
-    padding: 0;
 }
 .container-content {
     text-align: center;
@@ -233,16 +231,10 @@ color: rgb(44%, 24%, 74%);
 footer i {
     font-size: 20px;
 }
-nav {
-    display: flex;
-    justify-content: center;
-    padding-right: 60px;
-}
-nav li {
-    margin-left: 26px;
-}
-nav h5 {
-    margin: 0;
+
+nav ul {
+    display: block;
+    margin: 0 auto;
 }
 }
 /*rgb(14%, 19%, 37%)
