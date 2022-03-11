@@ -168,6 +168,19 @@ color: rgb(44%, 24%, 74%);
     font-family: "El Messiri";
 }
 
+.btn-branding-weather {
+    border: 1px solid rgb(44%, 24%, 74%);
+color: rgb(44%, 24%, 74%);
+  padding: 5px 15px;
+  font-size: 18px;
+  border-radius: 6px;
+}
+
+.btn-branding-weather:hover {
+    background-color: rgb(44%, 24%, 74%);
+  color: white;
+}
+
 .about-image {
     border-radius: 20px;
 }
