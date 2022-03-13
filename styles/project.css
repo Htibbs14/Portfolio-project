@@ -4,6 +4,8 @@
     --default-font: "El Messiri";
 }
 
+
+
 h2 {
     font-family: var(--default-font);
     font-weight: 800;
