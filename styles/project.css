@@ -4,8 +4,6 @@
     --default-font: "El Messiri";
 }
 
-
-
 h2 {
     font-family: var(--default-font);
     font-weight: 800;
@@ -39,7 +37,7 @@ img {
 }
 
 nav {
-    padding: 15px;
+    padding: 15px 0;
 }
 
 nav ul {
@@ -48,7 +46,6 @@ nav ul {
 
 nav li {
     list-style: none;
-    margin-left: 40px;
 font-size: 18px;
 font-weight: 600;
 font-family: var(--default-font);
