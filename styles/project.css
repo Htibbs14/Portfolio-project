@@ -179,9 +179,11 @@ color: var( --primary-color);
 .btn-branding-weather {
     border: 1px solid var( --primary-color);
 color: var( --primary-color);
-  padding: 5px 15px;
+  padding: 4px 6px;
   font-size: 18px;
   border-radius: 6px;
+  margin-bottom: 3px;
+  line-height: 1;
 }
 
 .btn-branding-weather:hover {
