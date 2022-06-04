@@ -76,6 +76,7 @@ a {
 
 footer {
     margin: 100px;
+    margin-left: 0;
 }
 
 footer a {
@@ -281,6 +282,10 @@ color: var( --primary-color);
 .content h2 {
     font-size: 20px;
 }
+footer {
+    margin-left: 0;
+}
+
 footer i {
     font-size: 20px;
 }
